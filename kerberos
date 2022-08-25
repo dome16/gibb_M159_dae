@@ -1,0 +1,11 @@
+Kerberos:
+-----------------------------------------------------------------------------------------------------------------------------------
+
+6 Schritte Kerberos:
+-----------------------------------------------------------------------------------------------------------------------------------
+  1. AS_REQ (Authentication Service Request)  --> Client User und Password Anfrage an KDC
+  2. AS_REP (Authentication Service Reply)    --> Antwort des KDC mit Session key
+  3. TGS_REQ (Ticket Granting Server Request) -->
+  4. TGS_REP (Ticket Granting Server Reply)   -->
+  5. AP_REQ (Application Server Request)      --> Anfrage an Service mit dem Service Ticket
+  6. AP_REP (Application Server Reply)        --> Optional, überprüft ob der Service wirklich der richtige Service ist.
