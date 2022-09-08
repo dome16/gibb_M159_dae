@@ -12,3 +12,9 @@ Updates Machen:
 ---------------------------------------------------------------
 sudo apt -y update && sudo apt -y upgrade
 Kaffe Pause :)
+sudo reboot
+
+SSH Einrichten:
+---------------------------------------------------------------
+vmlp1:  1. ssh-keygen
+        2. ssh-copy-id -i ~/.ssh/id_rsa.pub vmadmin@192.168.210.64
