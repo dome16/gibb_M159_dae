@@ -8,3 +8,7 @@ vmlp1:  Verwendung  Kerberos Client, ssh-Client
         Domainname  vmlp1.m159.iet-gibb.ch
         IP Adresse  192.168.210.31
 
+Updates Machen:
+---------------------------------------------------------------
+sudo apt -y update && sudo apt -y upgrade
+Kaffe Pause :)
