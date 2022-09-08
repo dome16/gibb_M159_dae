@@ -28,4 +28,7 @@ Folgende Zeile verändern:       search = m159.iet-gibb.ch
 Hostname ändern:
 ---------------------------------------------------------------
 1. Hostname (Ausgabe alter Hostname)
-2. 
+2. sudo vi /etc/hostname
+4. anpassen
+5. reboot
+6. hostname
