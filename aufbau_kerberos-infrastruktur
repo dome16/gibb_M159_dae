@@ -32,3 +32,10 @@ Hostname ändern:
 4. anpassen
 5. reboot
 6. hostname
+
+sudo vi /etc/hosts
+Anpassen wie gefolgt:
+127.0.0.1 localhost
+127.0.1.1	vmLS4	vmLS4.m159.iet-gibb.ch
+192.168.210.64	vmLS4	vmLS4.m159.iet-gibb.ch
+
