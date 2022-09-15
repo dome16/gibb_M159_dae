@@ -43,3 +43,11 @@ Bind Installieren auf vmLS4:
 ---------------------------------------------------------------
 sudo apt install bind9 bind9utils bind9-doc
 sudo systemctl stop bind9
+
+Zone in /etc/bind/named.conf.local eintragen:
+sudo vi /etc/bind/named.conf.local
+
+Files anlgen:
+sudo touch /etc/bind/db.m159.iet-gibb.ch
+sudo touch /etc/bind/db.192.168.210
+
