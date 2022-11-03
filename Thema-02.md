@@ -5,9 +5,13 @@
 kinit administrator
 klist
 ```
-
+### Verbindung testen mit smbclient -L vmls1 -k
+#### Was bewirkt der Parameter -k?
+```
+smbclient --help
+-k, --kerberos     |    DEPRECATED: Migrate to --use-kerberos
+```
 ### Passwort-Komplexität deaktivieren mit samba-tool:
-
 #### 1. Password complexity = deactivated:
 ```
  sudo samba-tool domain passwordsettings set --complexity=off
