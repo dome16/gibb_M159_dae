@@ -9,9 +9,9 @@ Lösen Sie ein Ticket für den User administrator:
 
 Passwort-Komplexität deaktivieren mit samba-tool:
 ---------------------------------------------------------------------------------------------------------------------------------------
-1. Password complexity = deactivated
+1. Password complexity = deactivated:
 ```
-sudo samba-tool domain passwordsettings set --complexity=off
+ sudo samba-tool domain passwordsettings set --complexity=off
 ```
 
 2. Password history length = 0
