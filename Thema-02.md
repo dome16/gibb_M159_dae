@@ -1,10 +1,10 @@
 # M159Thema2-AB01.pdf:
-
 ## Fragen:
-
-
 ### Lösen Sie ein Ticket für den User administrator:
-
+```
+kinit administrator
+klist
+```
 
 ### Passwort-Komplexität deaktivieren mit samba-tool:
 
@@ -14,13 +14,21 @@
 ```
 
 #### 2. Password history length = 0
+```
 sudo samba-tool domain passwordsettings set --history-length=0
+```
 
 #### 3. Minimum password age = 0
+```
 sudo samba-tool domain passwordsettings set --min-pwd-age=0
+```
 
 #### 4. Maximum password age = 0
+```
 sudo samba-tool domain passwordsettings set --max-pwd-age=0
+```
 
 #### 5. Expiration Time für den User administrator ausschalten
+```
 sudo samba-tool user setexpiry administrator --noexpiry
+```
