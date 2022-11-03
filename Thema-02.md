@@ -58,3 +58,14 @@ sudo samba-tool domain passwordsettings set --max-pwd-age=0
 ```
 sudo samba-tool user setexpiry administrator --noexpiry
 ```
+
+### Anlegen eines DNS A Records mit samba-tool
+#### Legen sie vmls2 und vmls3 als A-Record im DNS an. Verwenden Sie dazu den Befehl samba-tool. Für Hilfe verwenden sie samba-tool -h oder finden sie Beispiele im Internet.
+```
+Ip Addresse vmls2: 192.168.220.11	vmls3: 192.168.220.12
+
+---------------------------------------------------------------------------------------
+
+sudo samba-tool dns add vmls2 sam159.iet-gibb.ch demo A 192.168.220.11
+sudo samba-tool dns add vmls3 sam159.iet-gibb.ch demo A 192.168.220.12
+```
