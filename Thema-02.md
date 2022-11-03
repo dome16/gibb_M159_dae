@@ -29,6 +29,10 @@ Valid starting       Expires              Service principal
 
 ```
 
+### Warum funktioniert der Verbindungsaufbau mit localhost nicht?
+#### Versuchen Sie es mit: smbclient -L localhost -k localhost entspricht doch vmls1? warum hat es mit localhost bei 7(a)-Testen der Verbindung geklappt bzw. warum klappt es hier nicht mit -k?
+
+
 ### Passwort-Komplexität deaktivieren mit samba-tool:
 #### 1. Password complexity = deactivated:
 ```
