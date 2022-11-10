@@ -99,3 +99,18 @@ Interpretation:
 ---------------------------------------------------------------------------------------
 Das sind die fsmo Rollen die hier angezeigt werden. fsmo steht für (  Flexible Single Master Operations ). Dieser Command zeigt die Owner dieser fsmo Rollen an.
 ```
+
+
+
+
+
+
+
+
+# M159Thema2-AB02.pdf:
+## Installieren Sie dazu zuerst die ldap-tools und den LAM
+(LDAP-Account-Manager):
+```
+sudo apt-get install smbldap-tools
+sudo apt install ldap-account-manager
+```
