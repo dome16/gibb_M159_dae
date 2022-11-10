@@ -108,9 +108,14 @@ Das sind die fsmo Rollen die hier angezeigt werden. fsmo steht für (  Flexible 
 
 
 # M159Thema2-AB02.pdf:
-## Installieren Sie dazu zuerst die ldap-tools und den LAM
-(LDAP-Account-Manager):
+## Installieren Sie dazu zuerst die ldap-tools und den LAM (LDAP-Account-Manager):
 ```
 sudo apt-get install smbldap-tools
 sudo apt install ldap-account-manager
 ```
+
+## Firefox auf der vmlp1 starten und folgende Seite aufrufen:
+```
+http://192.168.220.10/lam/
+```
+
