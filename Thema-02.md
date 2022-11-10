@@ -74,8 +74,6 @@ samba-tool dns add 192.168.220.10 sam159.iet-gibb.ch vmls3 A 192.168.220.13 -Uad
 #### Legen Sie für beide Rechner die PTR Record an mit dem Befehl samba-tool.
 
 ```
-samba-tool dns add 192.168.220.10 220.168.192.in-addr.arpa 12 PTR vmls2.sam159.iet-gibb.ch
--Uadministrator
-samba-tool dns add 192.168.220.10 220.168.192.in-addr.arpa 13 PTR vmls3.sam159.iet-gibb.ch
--Uadministrator
+samba-tool dns add 192.168.220.10 220.168.192.in-addr.arpa 12 PTR vmls2.sam159.iet-gibb.ch -Uadministrator
+samba-tool dns add 192.168.220.10 220.168.192.in-addr.arpa 13 PTR vmls3.sam159.iet-gibb.ch -Uadministrator
 ```
