@@ -62,7 +62,7 @@ sudo samba-tool user setexpiry administrator --noexpiry
 ### Anlegen eines DNS A Records mit samba-tool
 #### Legen sie vmls2 und vmls3 als A-Record im DNS an. Verwenden Sie dazu den Befehl samba-tool. Für Hilfe verwenden sie samba-tool -h oder finden sie Beispiele im Internet.
 ```
-Ip Addresse vmls2: 192.168.220.11	vmls3: 192.168.220.12
+Ip Addresse vmls2: 192.168.220.12	vmls3: 192.168.220.13
 
 ---------------------------------------------------------------------------------------
 
@@ -74,6 +74,10 @@ samba-tool dns add 192.168.220.10 sam159.iet-gibb.ch vmls3 A 192.168.220.13 -Uad
 #### Legen Sie für beide Rechner die PTR Record an mit dem Befehl samba-tool.
 
 ```
+Ip Addresse vmls2: 192.168.220.12	vmls3: 192.168.220.13
+
+---------------------------------------------------------------------------------------
+
 samba-tool dns add 192.168.220.10 220.168.192.in-addr.arpa 12 PTR vmls2.sam159.iet-gibb.ch -Uadministrator
 samba-tool dns add 192.168.220.10 220.168.192.in-addr.arpa 13 PTR vmls3.sam159.iet-gibb.ch -Uadministrator
 ```
