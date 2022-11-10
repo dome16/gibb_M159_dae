@@ -67,5 +67,5 @@ Ip Addresse vmls2: 192.168.220.11	vmls3: 192.168.220.12
 ---------------------------------------------------------------------------------------
 
 samba-tool dns add 192.168.220.10 sam159.iet-gibb.ch vmls2 A 192.168.220.12 -Uadministrator
-samba-tool dns add 192.168.220.10 sam159.iet-gibb.ch vmls2 A 192.168.220.12 -Uadministrator
+samba-tool dns add 192.168.220.10 sam159.iet-gibb.ch vmls3 A 192.168.220.13 -Uadministrator
 ```
