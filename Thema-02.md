@@ -85,8 +85,6 @@ samba-tool dns add 192.168.220.10 220.168.192.in-addr.arpa 13 PTR vmls3.sam159.i
 ### Was zeigt samba-tool fsmo show
 #### Erklären Sie die Bedeutung von jedem Eintrag und notieren Sie das im Arbeitsjournal.
 ```
-(WIP)
-
 Output vom Command:
 ---------------------------------------------------------------------------------------
 SchemaMasterRole owner: CN=NTDS Settings,CN=VMLS1,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=sam159,DC=iet-gibb,DC=ch
