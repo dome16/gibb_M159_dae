@@ -81,3 +81,9 @@ Ip Addresse vmls2: 192.168.220.12	vmls3: 192.168.220.13
 samba-tool dns add 192.168.220.10 220.168.192.in-addr.arpa 12 PTR vmls2.sam159.iet-gibb.ch -Uadministrator
 samba-tool dns add 192.168.220.10 220.168.192.in-addr.arpa 13 PTR vmls3.sam159.iet-gibb.ch -Uadministrator
 ```
+
+### Was zeigt samba-tool fsmo show
+#### Erklären Sie die Bedeutung von jedem Eintrag und notieren Sie das im Arbeitsjournal.
+```
+(WIP)
+```
