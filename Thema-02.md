@@ -135,4 +135,7 @@ Ist bei Windows 10 geleich auch über die Optional Features Möglich.
 ```
 
 ### Welche Domain-Admin Tools stehen ihnen jetzt auf vmWP1 zur Verfügung?
-![alt text]([http://url/to/img.png](https://www.google.com/url?sa=i&url=https%3A%2F%2F4sysops.com%2Farchives%2Finstall-rsat-for-windows-10%2F&psig=AOvVaw0MIj7KBH5yHPEzZb3ZdFdk&ust=1669368202934000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJCsm6i_xvsCFQAAAAAdAAAAABAS))
+```
+https://www.google.com/url?sa=i&url=https%3A%2F%2F4sysops.com%2Farchives%2Finstall-rsat-for-windows-10%2F&psig=AOvVaw0MIj7KBH5yHPEzZb3ZdFdk&ust=1669368202934000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJCsm6i_xvsCFQAAAAAdAAAAABAS
+```
+
