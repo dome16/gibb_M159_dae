@@ -144,3 +144,18 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2F4sysops.com%2Farchives%2Finsta
 sudo apt -y install ldap-utils
 ldapsearch -x -LLL -H ldap://vmls1.sam159.iet-gibb.ch -b dc=sam159,dc=iet-gibb,dc=ch -D CN=administrator,CN=Users,DC=sam159,DC=iet-gibb,DC=ch -w SmL12345** cn=dominic
 ```
+
+## Repedition
+SID Zuordnung
+S-1-5-<Domäne>-500 Administrator-Benutzerkonto
+S-1-5-<Domäne>-501 Gast-Benutzerkonto
+S-1-5-<Domäne>-502 KRBTGT-Servicekonto
+S-1-5-<Domäne>-512 Domain Admins
+S-1-5-<Domäne>-513 Domain User Group
+S-1-5-<Domäne>-514 Domain Guest Group
+S-1-5-<Domäne>-515 Domain Computer Group
+S-1-5-<Domäne>-516 Domain Controller Group
+S-1-5-<Domäne>-519 Organisations-Admins
+S-1-5-<Domäne>-520 Richtlinien-Ersteller-Besitzer Gruppe
+S-1-5-32-544 Administratoren-Gruppe
+S-1-5-32-545 Benutzer-Gruppe
