@@ -119,3 +119,20 @@ sudo apt install ldap-account-manager
 http://192.168.220.10/lam/
 ```
 
+## 3.2 User, Gruppen und DNS mit RSAT Tools verwalten
+### Fügen Sie vmWP1 in die Domain sam159.iet-gibb.ch ein. Was müssen Sie beim Client netzwerkseitig
+unbedingt beachten, damit das klappt?
+```
+1. Vm Netwerkkonfiguration anpassen und adapter neu starten.
+2. VMnet8 verschieben über VMwarePlayer einstellungen
+3. Domäne Joinen
+```
+
+### Installieren Sie die RSAT-Tools. Unter Windows 11 können diese Tools unter Optional Features
+ausgewählt werden.
+```
+Ist bei Windows 10 geleich auch über die Optional Features Möglich.
+```
+
+### Welche Domain-Admin Tools stehen ihnen jetzt auf vmWP1 zur Verfügung?
+![alt text]([http://url/to/img.png](https://www.google.com/url?sa=i&url=https%3A%2F%2F4sysops.com%2Farchives%2Finstall-rsat-for-windows-10%2F&psig=AOvVaw0MIj7KBH5yHPEzZb3ZdFdk&ust=1669368202934000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJCsm6i_xvsCFQAAAAAdAAAAABAS))
