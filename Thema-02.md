@@ -146,6 +146,7 @@ ldapsearch -x -LLL -H ldap://vmls1.sam159.iet-gibb.ch -b dc=sam159,dc=iet-gibb,d
 ```
 
 ## Repedition
+```
 SID Zuordnung
 S-1-5-<Domäne>-500 Administrator-Benutzerkonto
 S-1-5-<Domäne>-501 Gast-Benutzerkonto
@@ -159,3 +160,4 @@ S-1-5-<Domäne>-519 Organisations-Admins
 S-1-5-<Domäne>-520 Richtlinien-Ersteller-Besitzer Gruppe
 S-1-5-32-544 Administratoren-Gruppe
 S-1-5-32-545 Benutzer-Gruppe
+```
