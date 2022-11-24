@@ -139,3 +139,8 @@ Ist bei Windows 10 geleich auch über die Optional Features Möglich.
 https://www.google.com/url?sa=i&url=https%3A%2F%2F4sysops.com%2Farchives%2Finstall-rsat-for-windows-10%2F&psig=AOvVaw0MIj7KBH5yHPEzZb3ZdFdk&ust=1669368202934000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJCsm6i_xvsCFQAAAAAdAAAAABAS
 ```
 
+## Active Directory mit ldapsearch abfragen
+```
+sudo apt -y install ldap-utils
+ldapsearch -x -LLL -H ldap://vmls1.sam159.iet-gibb.ch -b dc=sam159,dc=iet-gibb,dc=ch -D CN=administrator,CN=Users,DC=sam159,DC=iet-gibb,DC=ch -w SmL12345** cn=dominic
+```
